@@ -55,14 +55,14 @@
 ### 📊 GitHub Stats & Streaks
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anantgoel2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Anant's GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anantgoel2005&theme=tokyonight&hide_border=true&background=1a1b27" alt="Anant's GitHub Streak" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Anantgoel2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anantgoel2005&theme=tokyonight&hide_border=true&background=1a1b27" width="48%" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anantgoel2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" alt="Top Languages" width="60%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anantgoel2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="60%" />
 </div>
 
 ---
