@@ -1,81 +1,39 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a1c71,50:d76d77,100:ffaf7b&height=250&section=header&text=Anant%20Goel&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=ffffff" alt="Header Banner" />
-  
-  <h3>Systems, Software & AI Engineer</h3>
-  
-  <p align="center">
-    I bridge the gap between intelligent AI systems and robust, high-performance architecture. From real-time computer vision at the edge to low-latency backends and secure IoT networks, I love solving complex engineering challenges.
-  </p>
+<h1 align="center">Anant Goel</h1>
 
-  <p align="center">
-    <a href="https://www.linkedin.com/in/anant-goel-6b7406279/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:anantgoel2005@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-  </p>
-</div>
+<p align="center">
+  <strong>AI Systems · Computer Vision · Security Engineering</strong>
+</p>
 
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/anant-goel-199886295/">LinkedIn</a> ·
+  <a href="mailto:anantgoel2005@gmail.com">Email</a>
+</p>
 
-### 🚀 About Me
+I build practical, end-to-end software at the intersection of AI, computer vision, security, and distributed systems. My work focuses on turning complex technical ideas into usable tools with clear workflows, measurable outcomes, and thoughtful engineering trade-offs.
 
-- 🧠 Currently focused on **scalable backend systems, embedded architecture, and machine learning pipelines**.
-- 🔭 Building intelligent systems ranging from **automated traffic intelligence** to **autonomous heuristic game AI**.
-- ⚙️ Experienced in hardware-software integration, including my internship work in **PCB design and BLDC motor tuning** at Bodycast Innovators.
-- 💡 Actively developing edge computing and IoT solutions, such as **SpeedNet** (automated highway speed regulation) and **Smart Warehouse Management** systems using RFID.
+## Focus areas
 
----
+- Computer vision and real-time intelligent systems
+- Security engineering, SOC workflows, and defensive tooling
+- Backend platforms, IoT, and distributed/edge architectures
 
-### 💻 Tech Stack & Tools
+## Featured work
 
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,ts,js,matlab,c,cpp&theme=dark" alt="Languages" />
-  </a>
-  <br><br>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,opencv,scikitlearn,fastapi,flask,nodejs,react,arduino&theme=dark" alt="Frameworks and Tools" />
-  </a>
-</div>
+| Project | What I built | Stack |
+| --- | --- | --- |
+| [Deception Orchestrator](https://github.com/Anantgoel2005/deception-orchestrator) | A self-hostable SOC lab that turns decoy and URL-canary activity into MITRE ATT&CK-tagged events, alerts, and investigation timelines. Includes optional DeepSeek-assisted analyst context with a deterministic offline fallback. | FastAPI, Next.js, PostgreSQL, Redis, Docker |
+| [Traffic Intelligence Dashboard](https://github.com/Anantgoel2005/traffic_monitoring_system) | A real-time traffic monitoring platform that detects, tracks, and analyzes road activity from video feeds, with an operational dashboard for live insights. | Python, FastAPI, React, YOLO, ByteTrack |
+| [PathWise](https://github.com/Anantgoel2005/PathWise) | A road-safety vision system for predicting vehicle behaviour and identifying hazards such as cut-ins and time-to-collision risks. | Python, OpenCV, YOLOv10, ByteTrack |
+| [SpeedNet](https://github.com/Anantgoel2005/SpeedNet) | A fog-computing IoT simulation that derives dynamic highway speed limits from distributed traffic and environmental sensor data. | Python, IoT, Fog Computing |
 
----
+## Current toolkit
 
-### 🏆 GitHub Trophies
+Python · TypeScript · FastAPI · React · Next.js · PostgreSQL · Redis · Docker · PyTorch · OpenCV · YOLO
 
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Anantgoel2005&theme=tokyonight&row=1&column=7&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
-  </a>
-</div>
+## How I approach engineering
 
----
+- Build complete workflows, not isolated models or prototypes.
+- Treat reliability, observability, and safe defaults as product features.
+- Use AI where it improves decisions, while keeping core systems understandable and resilient without it.
 
-### 📊 GitHub Stats & Streaks
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anantgoel2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anantgoel2005&theme=tokyonight&hide_border=true&background=1a1b27" width="48%" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anantgoel2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="60%" />
-</div>
-
----
-
-### 📈 Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anantgoel2005&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=bf91f3&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
-</div>
-
----
-
-<div align="center">
-  <i>"Optimizing logic down to the bare metal."</i><br><br>
-  <img src="https://komarev.com/ghpvc/?username=Anantgoel2005&label=Profile%20Views&color=70a5fd&style=flat-square" alt="Profile Views" />
-</div>
+I am always interested in collaborating on useful AI, security, and systems projects.
