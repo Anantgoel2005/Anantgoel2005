@@ -5,13 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/anant-goel-199886295/">LinkedIn</a> |
+  <a href="https://www.linkedin.com/in/ag25goel/">LinkedIn</a> |
   <a href="mailto:anantgoel2005@gmail.com">Email</a>
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Anantgoel2005&show_icons=true&hide_title=true&rank_icon=github&hide_border=true&bg_color=00000000&text_color=24292f&icon_color=0969da&ring_color=0969da" alt="Anant's GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anantgoel2005&layout=compact&hide_border=true&bg_color=00000000&text_color=24292f&title_color=0969da" alt="Anant's most-used languages" />
 </p>
 
 I build practical, end-to-end software at the intersection of AI, computer vision, security, and distributed systems. My work focuses on turning complex technical ideas into usable tools with clear workflows, measurable outcomes, and thoughtful engineering trade-offs.
@@ -34,12 +29,6 @@ I build practical, end-to-end software at the intersection of AI, computer visio
 ## Current toolkit
 
 Python | TypeScript | FastAPI | React | Next.js | PostgreSQL | Redis | Docker | PyTorch | OpenCV | YOLO
-
-## GitHub activity
-
-<a href="https://github.com/Anantgoel2005">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anantgoel2005&bg_color=ffffff&color=24292f&line=0969da&point=0969da&area=true&hide_border=true" alt="Anant's GitHub contribution activity" />
-</a>
 
 ## How I approach engineering
 
