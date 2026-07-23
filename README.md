@@ -1,7 +1,5 @@
-<h1 align="center">Anant Goel</h1>
-
 <p align="center">
-  <strong>AI Systems | Computer Vision | Security Engineering</strong>
+  <img src="https://raw.githubusercontent.com/Anantgoel2005/Anantgoel2005/main/assets/profile-overview.svg" alt="Anant Goel - AI systems, computer vision, and security engineering" width="100%" />
 </p>
 
 <p align="center">
@@ -9,13 +7,7 @@
   <a href="mailto:anantgoel2005@gmail.com">Email</a>
 </p>
 
-I build practical, end-to-end software at the intersection of AI, computer vision, security, and distributed systems. My work focuses on turning complex technical ideas into usable tools with clear workflows, measurable outcomes, and thoughtful engineering trade-offs.
-
-## Focus areas
-
-- Computer vision and real-time intelligent systems
-- Security engineering, SOC workflows, and defensive tooling
-- Backend platforms, IoT, and distributed/edge architectures
+> I build practical, end-to-end software at the intersection of AI, computer vision, security, and distributed systems. My work focuses on turning complex technical ideas into usable tools with clear workflows, measurable outcomes, and thoughtful engineering trade-offs.
 
 ## Featured work
 
@@ -28,7 +20,9 @@ I build practical, end-to-end software at the intersection of AI, computer visio
 
 ## Current toolkit
 
-Python | TypeScript | FastAPI | React | Next.js | PostgreSQL | Redis | Docker | PyTorch | OpenCV | YOLO
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anantgoel2005/Anantgoel2005/main/assets/toolkit.svg" alt="Python, TypeScript, FastAPI, Next.js, PostgreSQL, Redis, Docker, PyTorch, OpenCV, and YOLO" width="100%" />
+</p>
 
 ## How I approach engineering
 
