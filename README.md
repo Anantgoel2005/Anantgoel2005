@@ -1,33 +1,86 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Anantgoel2005/Anantgoel2005/main/assets/profile-overview.svg" alt="Anant Goel - AI systems, computer vision, and security engineering" width="100%" />
+  <img src="https://raw.githubusercontent.com/Anantgoel2005/Anantgoel2005/main/assets/profile-overview.svg" alt="Anant Goel — applied AI, computer vision, and security engineering" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ag25goel/">LinkedIn</a> |
-  <a href="mailto:anantgoel2005@gmail.com">Email</a>
+  <a href="https://github.com/Anantgoel2005?tab=repositories"><b>Projects</b></a>
+  &nbsp;•&nbsp;
+  <a href="https://www.linkedin.com/in/ag25goel/"><b>LinkedIn</b></a>
+  &nbsp;•&nbsp;
+  <a href="mailto:anantgoel2005@gmail.com"><b>Email</b></a>
 </p>
 
-> I build practical, end-to-end software at the intersection of AI, computer vision, security, and distributed systems. My work focuses on turning complex technical ideas into usable tools with clear workflows, measurable outcomes, and thoughtful engineering trade-offs.
+<p align="center">
+  I build end-to-end systems that turn AI models and complex technical ideas into usable products—from real-time computer-vision pipelines to security investigation tools and private, offline desktop software.
+</p>
 
-## Featured work
+## Selected work
 
-| Project | What I built | Stack |
-| --- | --- | --- |
-| [Deception Orchestrator](https://github.com/Anantgoel2005/deception-orchestrator) | A self-hostable SOC lab that turns decoy and URL-canary activity into MITRE ATT&CK-tagged events, alerts, and investigation timelines. Includes optional DeepSeek-assisted analyst context with a deterministic offline fallback. | FastAPI, Next.js, PostgreSQL, Redis, Docker |
-| [Traffic Intelligence Dashboard](https://github.com/Anantgoel2005/traffic_monitoring_system) | A real-time traffic monitoring platform that detects, tracks, and analyzes road activity from video feeds, with an operational dashboard for live insights. | Python, FastAPI, React, YOLO, ByteTrack |
-| [PathWise](https://github.com/Anantgoel2005/PathWise) | A road-safety vision system for predicting vehicle behaviour and identifying hazards such as cut-ins and time-to-collision risks. | Python, OpenCV, YOLOv10, ByteTrack |
-| [SpeedNet](https://github.com/Anantgoel2005/SpeedNet) | A fog-computing IoT simulation that derives dynamic highway speed limits from distributed traffic and environmental sensor data. | Python, IoT, Fog Computing |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/Anantgoel2005/deception-orchestrator">Deception Orchestrator</a></h3>
+      <p><code>Flagship · Active</code></p>
+      <p>A self-hostable SOC analyst console for controlled deception labs. It turns honeypot and URL-canary activity into MITRE ATT&amp;CK-tagged events, alerts, and investigation timelines.</p>
+      <p><b>Engineering highlights</b></p>
+      <ul>
+        <li>FastAPI control plane and Next.js analyst workspace</li>
+        <li>PostgreSQL, Redis, Docker, JWT authentication, and production validation</li>
+        <li>Optional LLM-assisted context with a deterministic offline fallback</li>
+        <li>Automated backend tests and frontend builds through GitHub Actions</li>
+      </ul>
+      <p><code>Python</code> <code>TypeScript</code> <code>FastAPI</code> <code>Next.js</code> <code>Docker</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📚 <a href="https://github.com/Anantgoel2005/Mouseion">Mouseion</a></h3>
+      <p><code>Product · Active</code></p>
+      <p>A private, offline desktop library for PDF and EPUB collections, inspired by the ancient Mouseion of Alexandria.</p>
+      <p><b>Engineering highlights</b></p>
+      <ul>
+        <li>Local-first catalogue with reading progress, favorites, and metadata</li>
+        <li>Electron desktop runtime with a TypeScript and React interface</li>
+        <li>No account, cloud dependency, or document upload</li>
+        <li>Automated catalogue tests, Electron smoke test, and Windows packaging</li>
+      </ul>
+      <p><code>TypeScript</code> <code>React</code> <code>Electron</code> <code>Vite</code> <code>Node.js</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚦 <a href="https://github.com/Anantgoel2005/traffic_monitoring_system">Traffic Intelligence Dashboard</a></h3>
+      <p><code>Applied AI · Prototype</code></p>
+      <p>A real-time traffic monitoring system that detects and tracks road activity from video, records violations and incidents, and surfaces operational telemetry through a live dashboard.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>React</code> <code>YOLO</code> <code>ByteTrack</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛣️ <a href="https://github.com/Anantgoel2005/PathWise">PathWise</a></h3>
+      <p><code>Computer Vision · Prototype</code></p>
+      <p>A road-safety vision pipeline that combines object detection, tracking, bird's-eye-view telemetry, and behaviour signals to identify hazards such as cut-ins and time-to-collision risks.</p>
+      <p><code>Python</code> <code>OpenCV</code> <code>YOLOv10</code> <code>ByteTrack</code></p>
+    </td>
+  </tr>
+</table>
 
-## Current toolkit
+## More projects
+
+- **[Pentest Agent](https://github.com/Anantgoel2005/pentest-agent)** — a safety-oriented web security assessment agent with two-stage verification, structured findings, and automated remediation guidance.
+- **[ParkingIntel](https://github.com/Anantgoel2005/parkingintel)** — a hackathon project that analyzes Bangalore parking violations to identify enforcement hotspots and temporal patterns.
+- **[SpeedNet](https://github.com/Anantgoel2005/SpeedNet)** — a fog-computing IoT simulation for deriving dynamic highway speed limits from distributed traffic and environmental sensors.
+- **[Pneumonia Detection](https://github.com/Anantgoel2005/pneumonia_detection)** — a PyTorch computer-vision prototype for classifying chest X-rays, with Grad-CAM visual explanations and explicit clinical-use limitations.
+
+## Engineering toolkit
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Anantgoel2005/Anantgoel2005/main/assets/toolkit.svg" alt="Python, TypeScript, FastAPI, Next.js, PostgreSQL, Redis, Docker, PyTorch, OpenCV, and YOLO" width="100%" />
 </p>
 
-## How I approach engineering
+## How I work
 
-- Build complete workflows, not isolated models or prototypes.
-- Treat reliability, observability, and safe defaults as product features.
-- Use AI where it improves decisions, while keeping core systems understandable and resilient without it.
+- Build complete workflows around models—not isolated notebooks or demos.
+- Separate experimental prototypes from deployable systems and document the trade-offs.
+- Prefer local-first and deterministic fallbacks where privacy or reliability matters.
+- Use AI where it improves decisions while keeping core behaviour understandable and testable.
 
-I am always interested in collaborating on useful AI, security, and systems projects.
+<p align="center">
+  <b>Open to opportunities and collaborations in applied AI, computer vision, security engineering, and full-stack product development.</b>
+</p>
