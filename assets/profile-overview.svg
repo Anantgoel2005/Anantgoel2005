@@ -2,6 +2,21 @@
   <title id="title">Anant Goel - AI systems, computer vision, and security engineering</title>
   <desc id="desc">A profile banner with three focus areas: AI systems, computer vision, and security engineering.</desc>
   <defs>
+    <style>
+      .orb-a { animation: drift-a 9s ease-in-out infinite alternate; transform-origin: center; }
+      .orb-b { animation: drift-b 11s ease-in-out infinite alternate; transform-origin: center; }
+      .mark { animation: mark-pulse 3.8s ease-in-out infinite; transform-origin: 29px 29px; }
+      .focus-card { animation: card-float 5s ease-in-out infinite; }
+      .focus-card.two { animation-delay: .7s; }
+      .focus-card.three { animation-delay: 1.4s; }
+      .scan { animation: scan 6s linear infinite; }
+      @keyframes drift-a { to { transform: translate(-34px, 25px) scale(1.08); opacity: .18; } }
+      @keyframes drift-b { to { transform: translate(32px, -18px) scale(1.12); opacity: .18; } }
+      @keyframes mark-pulse { 50% { transform: scale(1.07) rotate(4deg); filter: brightness(1.18); } }
+      @keyframes card-float { 50% { filter: brightness(1.14); opacity: .96; } }
+      @keyframes scan { from { transform: translateX(-280px); } to { transform: translateX(1480px); } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07152f"/>
       <stop offset="0.5" stop-color="#102a5c"/>
@@ -17,28 +32,30 @@
   </defs>
 
   <rect width="1200" height="310" rx="22" fill="url(#bg)"/>
-  <circle cx="1080" cy="-20" r="195" fill="#38bdf8" opacity="0.12"/>
-  <circle cx="115" cy="305" r="165" fill="#a78bfa" opacity="0.12"/>
+  <circle class="orb-a" cx="1080" cy="-20" r="195" fill="#38bdf8" opacity="0.12"/>
+  <circle class="orb-b" cx="115" cy="305" r="165" fill="#a78bfa" opacity="0.12"/>
   <path d="M0 235C160 180 265 288 430 229S712 115 895 173s190 41 305-5v142H0z" fill="#020617" opacity="0.16"/>
   <path d="M0 58H1200M0 117H1200M0 176H1200M0 235H1200" stroke="#93c5fd" stroke-opacity="0.09"/>
 
   <g transform="translate(66 53)">
-    <rect width="58" height="58" rx="17" fill="url(#accent)" filter="url(#shadow)"/>
-    <path d="M18 29h22M29 18v22M20.5 20.5l17 17M37.5 20.5l-17 17" stroke="#082f49" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    <g class="mark">
+      <rect width="58" height="58" rx="17" fill="url(#accent)" filter="url(#shadow)"/>
+      <path d="M18 29h22M29 18v22M20.5 20.5l17 17M37.5 20.5l-17 17" stroke="#082f49" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    </g>
     <text x="79" y="22" fill="#bae6fd" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3">ENGINEERING PORTFOLIO</text>
     <text x="79" y="58" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Anant Goel</text>
     <text x="0" y="101" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="16">Building practical systems where intelligence, reliability, and security meet.</text>
   </g>
 
   <g transform="translate(66 191)" filter="url(#shadow)">
-    <g>
+    <g class="focus-card">
       <rect width="316" height="72" rx="15" fill="#0f2d5c" stroke="#38bdf8" stroke-opacity="0.48"/>
       <circle cx="34" cy="36" r="17" fill="#0ea5e9"/>
       <path d="M26 37h16M34 29v16" stroke="#e0f2fe" stroke-width="2.5" stroke-linecap="round"/>
       <text x="64" y="29" fill="#e0f2fe" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">FOCUS 01</text>
       <text x="64" y="51" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">AI Systems</text>
     </g>
-    <g transform="translate(343 0)">
+    <g class="focus-card two" transform="translate(343 0)">
       <rect width="316" height="72" rx="15" fill="#27235d" stroke="#a78bfa" stroke-opacity="0.52"/>
       <circle cx="34" cy="36" r="17" fill="#8b5cf6"/>
       <circle cx="34" cy="36" r="7" fill="none" stroke="#ede9fe" stroke-width="2.5"/>
@@ -46,7 +63,7 @@
       <text x="64" y="29" fill="#ede9fe" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">FOCUS 02</text>
       <text x="64" y="51" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Computer Vision</text>
     </g>
-    <g transform="translate(686 0)">
+    <g class="focus-card three" transform="translate(686 0)">
       <rect width="316" height="72" rx="15" fill="#123b43" stroke="#2dd4bf" stroke-opacity="0.52"/>
       <circle cx="34" cy="36" r="17" fill="#14b8a6"/>
       <path d="M34 23l11 5v8c0 8-5 13-11 16-6-3-11-8-11-16v-8z" fill="none" stroke="#ccfbf1" stroke-width="2.5" stroke-linejoin="round"/>
@@ -54,4 +71,5 @@
       <text x="64" y="51" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Security Engineering</text>
     </g>
   </g>
+  <rect class="scan" x="0" y="0" width="180" height="310" fill="url(#accent)" opacity="0.025" transform="skewX(-18)"/>
 </svg>
