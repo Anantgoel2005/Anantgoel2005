@@ -59,11 +59,25 @@
       <p><code>Python</code> <code>OpenCV</code> <code>YOLOv10</code> <code>ByteTrack</code></p>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🔐 <a href="https://github.com/Anantgoel2005/pentest-agent">Pentest Agent</a></h3>
+      <p><code>Security Engineering · Educational Alpha</code></p>
+      <p>A safety-oriented CLI for authorized web assessment, built around explicit scope controls, low-impact defaults, evidence-first verification, and structured security reports.</p>
+      <p><b>Engineering highlights</b></p>
+      <ul>
+        <li>Authorization acknowledgement, public-target opt-in, exact-host boundaries, and bounded request limits</li>
+        <li>Conventional reconnaissance and passive checks with optional two-stage LLM verification</li>
+        <li>Deterministic offline demo that produces JSON and Markdown reports without a target or API key</li>
+        <li>Python 3.11/3.12 CI with automated tests, Ruff, Bandit, dependency auditing, and package builds</li>
+      </ul>
+      <p><code>Python</code> <code>HTTPX</code> <code>Click</code> <code>Security Automation</code> <code>GitHub Actions</code></p>
+    </td>
+  </tr>
 </table>
 
 ## More projects
 
-- **[Pentest Agent](https://github.com/Anantgoel2005/pentest-agent)** — a safety-oriented web security assessment agent with two-stage verification, structured findings, and automated remediation guidance.
 - **[ParkingIntel](https://github.com/Anantgoel2005/parkingintel)** — a hackathon project that analyzes Bangalore parking violations to identify enforcement hotspots and temporal patterns.
 - **[SpeedNet](https://github.com/Anantgoel2005/SpeedNet)** — a fog-computing IoT simulation for deriving dynamic highway speed limits from distributed traffic and environmental sensors.
 - **[Pneumonia Detection](https://github.com/Anantgoel2005/pneumonia_detection)** — a PyTorch computer-vision prototype for classifying chest X-rays, with Grad-CAM visual explanations and explicit clinical-use limitations.
